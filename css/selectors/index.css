@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(238, 211, 215);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(197, 238, 130);
+}
+
+a:link {
+  color: rgb(87, 127, 150);
+}
+
+a:visited {
+  color: rgb(163, 165, 42);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.outer {
+  border: 5px solid black;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  color: blueviolet;
+}
+
+span {
+  background-color: yellow;
+}
+
+strong,
+em {
+  color: rebeccapurple;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.box-1 {
+  padding: 10px;
+  width: calc(90% - 30px);
+  background-color: aquamarine;
+}
+
+.box-2 {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transform: rotate(0.8turn);
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.notebox {
+  border: 4px solid #666;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.notebox.warning {
+  border-color: orange;
+  font-weight: bold;
+}
+
+.notebox.danger {
+  border-color: red;
+  font-weight: bold;
+}
+
+#one {
+  background-color: rgb(224, 184, 124);
+}
+
+h3#heading {
+  color: rebeccapurple;
+}
+
+li[class^="a"] {
+  font-size: 120%;
+}
+
+li[class$="a"] {
+  background-color: yellow;
+}
+
+li[class*="a"] {
+  color: red;
+}
+
+.selectors *:first-child {
+  font-weight: bold;
+}
+
+section.pseudo-basic p:first-of-type::first-line {
+  font-weight: bold;
+}
+
+section.pseudo-basic ::first-line {
+  font-size: 120%;
+}
+
+.box-3::before {
+  content: "🕉️";
+}
+
+.box-3::after {
+  content: "🙏️";
+}
+
+.box-4::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 2px dashed purple;
+}
+
+.box-5 p {
+  color: blue;
+}
+
+section.combinators ul > li {
+  border-top: 5px solid gold;
+}
+
+h3 + p {
+  background-color: chocolate;
+  color: bisque;
+}
+
+h1 ~ p {
+  font-weight: bolder;
+  background-color: wheat;
+  color: rebeccapurple;
+  padding: 0.5rem;
+}
+
+.complex-selectors {
+  & ~ div {
+    background-color: coral;
+  }
+}
+
+ul li[class="a"] {
+  background-color: cadetblue;
+}
+
+@media (min-width: 50rem) {
+  body {
+    background-color: rgb(156, 156, 177);
+  }
+}

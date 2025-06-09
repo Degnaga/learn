@@ -1,0 +1,28 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+li {
+  margin: 0 0 0.5em 0;
+}
+
+a {
+  display: block;
+  padding: 0.5em;
+}
+
+a {
+  border: 5px solid grey;
+}
+
+a[title] {
+  border-color: pink;
+}
+
+a[href*="contact"] {
+  border-color: orange;
+}
+
+a[href^="https"] {
+  border-color: green;
+}
