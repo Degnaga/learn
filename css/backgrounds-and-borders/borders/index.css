@@ -1,0 +1,35 @@
+.box {
+  min-height: 3rem;
+}
+
+.a {
+  border: 5px solid darkblue;
+  background-color: aquamarine;
+  border-top-right-radius: 2em 15%;
+}
+
+.b {
+  border-top: 5px solid purple;
+  background-color: aqua;
+}
+
+.c {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: black;
+  background-color: beige;
+}
+
+.d {
+  padding: 0.5rem;
+  background-color: sandybrown;
+  border: 5px solid forestgreen;
+  border-bottom-style: dashed;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+h1 {
+  border-top: 3px darkmagenta dotted;
+  border-bottom: 1em double thistle;
+}

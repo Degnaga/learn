@@ -1,0 +1,15 @@
+body {
+  font: 1.2em sans-serif;
+}
+
+.box {
+  border: 5px solid darkblue;
+  width: 50%;
+}
+
+.box-1 {
+  border: 5px solid darkblue;
+  width: 200px;
+  margin: 10%;
+  padding: 10%;
+}

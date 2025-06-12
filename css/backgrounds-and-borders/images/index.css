@@ -1,0 +1,88 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 80px;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.a {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+}
+
+.b {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-color: aqua;
+}
+
+.c {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-color: aqua;
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-color: aqua;
+  background-repeat: repeat-x;
+}
+
+.e {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-color: aqua;
+  background-repeat: repeat-y;
+}
+
+.f {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+  background-repeat: no-repeat;
+  background-size: 120px 10em;
+}
+
+.g {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+  background-size: cover;
+}
+
+.h {
+  width: 500px;
+  height: 300px;
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.i {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.j {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10%;
+}
+
+.k {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat;
+  background-position: 20px top;
+}
+
+.l {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat;
+  background-position: top 20px right 10px;
+}
+
+.m {
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+  background-repeat: no-repeat;
+  background-position: 120px 1em;
+}

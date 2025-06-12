@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: 5px dashed pink;
+}
+
+.inner {
+  padding: 10%;
+  width: 60%;
+  background-color: rgb(42, 130, 165);
+}
