@@ -1,0 +1,24 @@
+body {
+  padding: 1em;
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  padding: 0.5rem;
+  border: 5px solid lightblue;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 40px;
+}
+
+h2 {
+  padding: 0 40px;
+  text-align: center;
+  background: no-repeat left center
+      url(https://mdn.github.io/shared-assets/images/examples/star.png),
+    repeat-y right center
+      url(https://mdn.github.io/shared-assets/images/examples/star.png);
+}

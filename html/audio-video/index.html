@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Video and Audio</h2>
+    <h3>Video</h3>
+    <video
+      controls
+      width="400"
+      height="400"
+      loop
+      preload="auto"
+      poster="./images/poster.png"
+    >
+      <source src="./video/rabbit320.webm" type="video/webm" />
+      <source src="./video/rabbit320.mp4" type="video/mp4" />
+      <track
+        kind="captions"
+        src="./cues/caption.vtt"
+        srclang="en"
+        label="English"
+      />
+      <p>
+        Your browser doesn't support HTML video. Here is a
+        <a href="./video/rabbit320.mp4">link to the video</a> instead.
+      </p>
+    </video>
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="./audio/viper.mp3" type="audio/mp3" />
+      <source src="./audio/viper.ogg" type="audio/ogg" />
+      <p>
+        Your browser doesn't support this audio file. Here is a
+        <a href="./audio/viper.mp3">link to the audio</a> instead.
+      </p>
+    </audio>
+  </body>
+</html>
