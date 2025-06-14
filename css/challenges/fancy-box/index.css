@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+article {
+  width: 16rem;
+  margin: 10rem auto;
+}
+
+.box {
+  display: flex;
+  width: 12.5rem;
+  height: 12.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(112, 105, 2);
+  text-shadow: 1px 1px rgb(246, 247, 243);
+  border-radius: 0.5rem;
+  border: 1px solid rgb(22, 13, 59);
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(57, 34, 160, 0.2) 30%,
+    rgba(57, 34, 160, 0.2) 100%
+  );
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2),
+    inset 4px 4px 5px rgba(254, 254, 255, 0.5),
+    inset -3px -3px 4px rgba(40, 25, 105, 0.4);
+}
