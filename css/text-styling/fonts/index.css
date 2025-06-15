@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  color: rgb(28, 28, 129);
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px rgb(0, 225, 255), 3px 3px 4px rgb(88, 26, 94);
+  text-align: center;
+  font-variant: small-caps;
+}
+
+h1 + p {
+  font-weight: bold;
+  text-decoration: underline violet wavy;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(82, 21, 21);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+p span {
+  text-decoration: line-through violet solid;
+}
+
+p::first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.text-presentation {
+  font-variant-emoji: text;
+}
+
+.emoji-presentation {
+  font-variant-emoji: emoji;
+}

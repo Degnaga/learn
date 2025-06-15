@@ -25,7 +25,7 @@ article {
     rgba(57, 34, 160, 0.2) 30%,
     rgba(57, 34, 160, 0.2) 100%
   );
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2),
-    inset 4px 4px 5px rgba(254, 254, 255, 0.5),
-    inset -3px -3px 4px rgba(40, 25, 105, 0.4);
+  box-shadow: 2px 2px 3px rgba(205, 129, 240, 0.2),
+    3px 3px 4px rgba(24, 3, 34, 0.2), inset 5px 5px 6px rgba(254, 254, 255, 0.5),
+    inset -4px -4px 5px rgba(40, 25, 105, 0.4);
 }
